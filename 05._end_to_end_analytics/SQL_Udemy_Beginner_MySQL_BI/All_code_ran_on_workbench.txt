@@ -1,0 +1,62 @@
+/* USE mavenmovies; -- use this only in MySQL workbench */
+-- this is also a comment but not multiline
+
+SELECT * 
+FROM rental;
+
+SELECT * 
+FROM inventory;
+
+SELECT * 
+FROM customer;
+
+/* this is a multiline comment */
+
+SELECT
+    customer_id,
+    rental_date
+FROM
+    rental;
+
+-- pull list of first name, last name and email of each of customers?
+-- Solve by yourself
+
+SHOW TABLES
+
+SELECT *
+FROM customer;
+-- we see this has what we need
+
+-- Answer therefore is
+SELECT 
+    first_name,
+    last_name,
+    email
+FROM customer;
+
+
+
+
+
+
+
+SELECT rating
+FROM film;
+
+-- Unique values
+SELECT DISTINCT rating
+FROM film;
+
+
+
+-- pull all rental duration types?
+SHOW TABLES
+SELECT *
+FROM film;
+-- found it
+
+-- Answer is
+SELECT DISTINCT rental_duration
+FROM film;
+
+

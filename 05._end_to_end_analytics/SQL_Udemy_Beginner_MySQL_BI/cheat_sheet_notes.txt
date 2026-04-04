@@ -1,0 +1,85 @@
+** Data types: **
+
+INT          -- whole numbers (-2B to +2B)
+BIGINT       -- very large integers
+DECIMAL(10,2) -- exact numbers (money: 12345.67)
+FLOAT / DOUBLE -- approximate decimals
+
+CHAR(10)     -- fixed length meaning the rest is padded with empty space
+VARCHAR(255) -- variable length (most common)
+TEXT         -- very long text
+
+DATE        -- '2025-01-01'
+TIME        -- '14:30:00'
+DATETIME    -- '2025-01-01 14:30:00'
+TIMESTAMP   -- auto time tracking
+
+BOOLEAN
+ENUM('A','B','C')  -- fixed choices
+BLOB               -- binary data (files/images)
+
+** To change a data type in SQL **
+
+DESCRIBE table_name;
+
+ALTER TABLE table_name
+MODIFY column_name new_data_type;
+
+DESCRIBE table_name;
+
+
+** Syntax **
+
+THE BIG 6 ELEMENTS OF A SQL SELECT STATEMENT (SFWGHO):
+
+-SELECT                                 (colname,colname,...)
+-FROM                                   (tablename)
+-WHERE                                  (logical condition)
+-GROUP BY                               (colname)->(segment data for aggregate level analysis)
+-HAVING                                 (logical condition) -> (group filtering criteria) [can only use with GROUP BY]
+-ORDER BY                               (colname)->(for sorting)
+
+SELECT * -> tells select all columns
+
+SELECT DISTINCT -> returns unique values in those columns, if multiple then distict combinations
+
+WHERE clause -> works with AND, OR, BETWEEN,LIKE,IN() clauses, and >,<,>=,<=,=, <> (DOES NOT EQUAL)
+
+SHOW TABLES clause -> useful for birds eye view of the database
+
+Useful operators :
+(can use with WHERE)
+
+-AND
+-OR
+-LIKE '%...%'                                 for pattern matching anywhere
+-LIKE '...%'                                  for pattern matching at start
+-LIKE '%...'                                  for pattern matching at end
+-LIKE '_...'                                  for pattern matching with exactly one character before ...
+-LIKE '_..._'                                 for pattern matching with exactly one character each before and after ...
+-NOT LIKE                                     for exclusion criteria pattern matching
+-BETWEEN ... AND ...                          for number selection
+
+Aggregate functions:
+(can use with GROUP BY, place inside SELECT clause in brackets,
+note, all of these skip null values except for SUM which treats them as 0)
+-SUM()
+-COUNT()
+-COUNT DISTINCT()
+-MIN()
+-MAX()
+-AVG()
+
+Comments & Aliases:
+
+->    --...                                         -> regular short Comment
+->    \*...*/                                       -> longer comment
+->    AS                                            -> alias
+
+
+
+
+
+
+
+
