@@ -37,7 +37,18 @@ THE BIG 6 ELEMENTS OF A SQL SELECT STATEMENT (SFWGHO):
 -WHERE                                  (logical condition)
 -GROUP BY                               (colname)->(segment data for aggregate level analysis)
 -HAVING                                 (logical condition) -> (group filtering criteria) [can only use with GROUP BY]
--ORDER BY                               (colname)->(for sorting)
+-ORDER BY                               (colname)->(for sorting) default is ASC, with multiple sorts prioritizing first column
+
+IMPORTANT STATEMENTS
+
+- CASE
+-
+-
+-
+
+
+
+
 
 SELECT * -> tells select all columns
 

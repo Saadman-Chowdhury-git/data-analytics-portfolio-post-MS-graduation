@@ -207,6 +207,28 @@ FROM rental
 GROUP BY customer_id
 HAVING COUNT(*) < 15
 
+-- ORDER BY
+SELECT customer_id,rental_id,amount,payment_date
+FROM payment
+ORDER BY amount DESC
+
+-- notice the tiebreakers withh multiple sorts
+SELECT customer_id,rental_id,amount,payment_date
+FROM payment
+ORDER BY amount DESC, customer_id DESC
+
+SELECT customer_id,SUM(amount) AS total_payment_amount
+FROM payment
+GROUP BY customer_id
+ORDER BY SUM(amount) DESC
+
+-- Assignment
+SELECT title,length,rental_rate
+FROM film
+ORDER BY length DESC
+
+
+-- CASE STATEMENT
 
 
 
