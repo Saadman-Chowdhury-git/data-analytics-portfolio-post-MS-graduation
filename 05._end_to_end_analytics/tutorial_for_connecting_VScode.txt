@@ -1,0 +1,34 @@
+1. Install extensions (search these in VS Code Extensions):
+SQLTools
+SQLTools MySQL/MariaDB
+
+2. Open command palette:
+Cmd + Shift + P
+
+3. Type:
+SQLTools: Add New Connection
+
+4. Select:
+MySQL/MariaDB
+
+5. Fill in:
+Connection name: local-mysql
+Server Address: 127.0.0.1
+Port: 3306
+Database: databasename (must already exist, created using CREATE DATABASE)
+Username: root
+Password: (your MySQL password)
+
+6. Click:
+TEST CONNECTION
+SAVE CONNECTION
+
+7. Connect:
+Click database icon (left sidebar)
+Click: local-mysql
+
+8. Test:
+Create file: test.sql
+
+Paste and run:
+SHOW TABLES;
