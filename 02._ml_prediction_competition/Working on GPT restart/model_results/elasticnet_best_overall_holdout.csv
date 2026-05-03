@@ -1,0 +1,2 @@
+model_class,stage,feature_space,scaler,l1_ratio,alpha,train_mse,val_mse,nonzero_coef,n_iter,convergence_warning,aic,bic
+ElasticNet,broad,base_plus_poly_interactions,standard,0.99,0.0011369581027614428,301.053453762379,308.4318214331356,152,21368,False,,
