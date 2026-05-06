@@ -1,0 +1,2 @@
+model_class,feature_space,max_depth,min_samples_leaf,min_samples_split,train_mse,val_mse,n_leaves,tree_depth,aic,bic
+Regression Tree,base_plus_poly,None,25,50,190.54425727885516,240.56625553041906,3522,45,,

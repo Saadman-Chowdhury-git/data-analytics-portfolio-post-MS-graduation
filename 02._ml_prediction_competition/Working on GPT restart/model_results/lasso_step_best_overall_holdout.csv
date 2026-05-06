@@ -1,0 +1,2 @@
+model_class,stage,scaler,alpha_max,alpha_ratio,alpha,train_mse,val_mse,nonzero_coef,n_iter,convergence_warning,aic,bic
+Lasso + Step Functions,fine,standard,11.25588521733828,2.7527077435245098e-05,0.00030984162397990143,281.68836543183426,290.0589757978566,657,47537,False,,
