@@ -1,0 +1,2 @@
+model_class,screen,fold,feature_space,n_estimators,max_samples,max_features,min_samples_leaf,min_samples_split,fold_train_mse,fold_oob_mse,fold_valid_mse
+Random Forest,refined_5fold,1,base,300,0.8,0.4,1,2,28.284049413731257,139.55049268594217,136.62846610254698

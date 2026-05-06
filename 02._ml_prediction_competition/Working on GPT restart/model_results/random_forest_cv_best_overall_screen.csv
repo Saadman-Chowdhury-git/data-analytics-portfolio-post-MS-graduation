@@ -1,0 +1,2 @@
+model_class,feature_space,n_estimators,max_samples,max_features,min_samples_leaf,min_samples_split,cv_train_mse_mean,cv_train_mse_std,cv_oob_mse_mean,cv_oob_mse_std,cv_valid_mse_mean,cv_valid_mse_std
+Random Forest,base,120,0.8,0.5,1,2,30.847552593055045,0.25001238496779754,151.327034446593,0.9440006404229715,149.54957077027083,0.282329317204347
