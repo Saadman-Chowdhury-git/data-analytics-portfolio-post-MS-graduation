@@ -1,0 +1,6 @@
+model_class,stage,feature_space,fold,config_name,n_estimators,max_features,min_samples_leaf,min_samples_split,bootstrap,max_samples,fold_valid_mse,elapsed_sec
+ExtraTrees,oof_selected_config,base,1,et_safe_oof_from_et_base_180_mf0.5_leaf1_no_bootstrap,250,0.5,1,2,False,,111.63933039144383,169.6598199160071
+ExtraTrees,oof_selected_config,base,2,et_safe_oof_from_et_base_180_mf0.5_leaf1_no_bootstrap,250,0.5,1,2,False,,109.15533429271322,166.81823604204692
+ExtraTrees,oof_selected_config,base,3,et_safe_oof_from_et_base_180_mf0.5_leaf1_no_bootstrap,250,0.5,1,2,False,,111.87028989470052,165.97745712497272
+ExtraTrees,oof_selected_config,base,4,et_safe_oof_from_et_base_180_mf0.5_leaf1_no_bootstrap,250,0.5,1,2,False,,108.40540941995584,166.27841758402064
+ExtraTrees,oof_selected_config,base,5,et_safe_oof_from_et_base_180_mf0.5_leaf1_no_bootstrap,250,0.5,1,2,False,,112.6760763288711,166.06951166596264

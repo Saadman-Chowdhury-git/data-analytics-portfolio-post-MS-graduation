@@ -1,0 +1,2 @@
+model_class,stage,feature_space,n_train_smoke,n_val_smoke,best_iteration,val_mse_raw,val_mse_clipped,elapsed_sec,objective,metric,n_estimators,learning_rate,num_leaves,min_child_samples,subsample,subsample_freq,colsample_bytree,reg_alpha,reg_lambda,max_depth,random_state,n_jobs,verbosity,force_col_wise
+LightGBM,post_crash_smoke_test,base,20000,8000,400,210.339064659562,209.93838117550897,1.5357520580291748,regression,l2,400,0.05,31,80,0.8,1,0.8,0.0,5.0,-1,9890,1,-1,True

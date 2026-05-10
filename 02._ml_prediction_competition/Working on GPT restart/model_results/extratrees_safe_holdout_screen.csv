@@ -1,0 +1,5 @@
+model_class,stage,feature_space,config_name,n_estimators,max_features,min_samples_leaf,min_samples_split,bootstrap,max_samples,train_mse,holdout_val_mse,elapsed_sec
+ExtraTrees,holdout_screen,base,et_base_180_mf0.5_leaf1_no_bootstrap,180,0.5,1,2,False,,0.02512247710955044,111.62730960485095,131.23135979101062
+ExtraTrees,holdout_screen,base,et_base_180_mf0.7_leaf1_no_bootstrap,180,0.7,1,2,False,,0.02512161882417886,111.87404767073008,163.67712616699282
+ExtraTrees,holdout_screen,base,et_base_180_mf0.5_leaf2_no_bootstrap,180,0.5,2,2,False,,19.159447351854915,119.02691779822973,107.84275583398994
+ExtraTrees,holdout_screen,base,et_base_180_mf0.5_leaf1_bootstrap0.8,180,0.5,1,2,True,0.8,25.15842815592605,123.5133163293301,75.18930029193871

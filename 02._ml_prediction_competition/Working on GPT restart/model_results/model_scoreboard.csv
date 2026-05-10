@@ -1,0 +1,3 @@
+model_key,feature_space,cv_valid_mse_mean,cv_valid_mse_std,holdout_val_mse,oof_mse,holdout_oob_mse,n_estimators,max_features,max_samples,min_samples_leaf,min_samples_split,submission_path,notes
+Random Forest,base,149.54957077027083,0.282329317204347,127.47963454073466,,129.17549028407203,120.0,0.5,0.8,1,2,,"First controlled Random Forest CV screen on base feature space only. Uses 3-fold CV, bootstrap sampling, and max_samples=0.80 for tractability."
+Regression Tree,base_plus_poly,,,,,,,,,25,50,,Single regression tree baseline across controlled pre-step feature spaces.

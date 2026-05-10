@@ -1,0 +1,6 @@
+artifact_name,model_class,feature_space,fold,fold_train_n,fold_valid_n,best_iteration,fold_valid_mse_raw,fold_valid_mse_clipped,elapsed_sec,objective,metric,random_state,n_jobs,verbosity,force_col_wise,n_estimators,learning_rate,num_leaves,min_child_samples,subsample,subsample_freq,colsample_bytree,reg_alpha,reg_lambda,max_depth
+lgbm_t03_base_5fold_oof,LightGBM,base,1,115936,28985,11999,100.821338343139,100.26539611816406,187.3053081035614,regression,l2,9890,1,-1,True,12000,0.03,95,60,0.85,1,0.9,0.0,5.0,-1
+lgbm_t03_base_5fold_oof,LightGBM,base,2,115937,28984,11998,97.02871630456511,96.49517059326172,177.75114393234253,regression,l2,9890,1,-1,True,12000,0.03,95,60,0.85,1,0.9,0.0,5.0,-1
+lgbm_t03_base_5fold_oof,LightGBM,base,3,115937,28984,12000,99.59885799719738,98.90389251708984,181.97103714942932,regression,l2,9890,1,-1,True,12000,0.03,95,60,0.85,1,0.9,0.0,5.0,-1
+lgbm_t03_base_5fold_oof,LightGBM,base,4,115937,28984,11998,97.3722090022167,96.72052001953125,179.05939507484436,regression,l2,9890,1,-1,True,12000,0.03,95,60,0.85,1,0.9,0.0,5.0,-1
+lgbm_t03_base_5fold_oof,LightGBM,base,5,115937,28984,12000,102.12407956751997,101.51200866699219,364.6194350719452,regression,l2,9890,1,-1,True,12000,0.03,95,60,0.85,1,0.9,0.0,5.0,-1

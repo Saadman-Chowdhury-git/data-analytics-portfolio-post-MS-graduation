@@ -1,0 +1,2 @@
+model_key,model_class,feature_space,screen_holdout_val_mse,oof_mse,fold_valid_mse_mean,fold_valid_mse_std,n_splits,n_estimators,max_features,min_samples_leaf,min_samples_split,bootstrap,max_samples,n_jobs,submission_path,elapsed_sec
+ExtraTrees OOF safe base,ExtraTrees,base,111.62730960485095,110.74929420710593,110.74928806553692,1.8571341624749522,5,250,0.5,1,2,False,,1,submission_extratrees_safe_base_oof_foldavg.csv,1314.1321299590636
