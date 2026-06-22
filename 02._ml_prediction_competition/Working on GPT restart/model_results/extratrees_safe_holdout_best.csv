@@ -1,2 +1,0 @@
-model_class,stage,feature_space,config_name,n_estimators,max_features,min_samples_leaf,min_samples_split,bootstrap,max_samples,train_mse,holdout_val_mse,elapsed_sec
-ExtraTrees,holdout_screen,base,et_base_180_mf0.5_leaf1_no_bootstrap,180,0.5,1,2,False,,0.02512247710955044,111.62730960485095,131.23135979101062

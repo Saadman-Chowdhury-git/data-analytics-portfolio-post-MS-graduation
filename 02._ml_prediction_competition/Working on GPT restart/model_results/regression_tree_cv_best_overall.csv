@@ -1,2 +1,0 @@
-model_class,feature_space,max_depth,min_samples_leaf,min_samples_split,cv_train_mse_mean,cv_train_mse_std,cv_valid_mse_mean,cv_valid_mse_std,mean_leaves,mean_depth
-Regression Tree,base_plus_poly_interactions,None,25,50,193.94285832317843,2.0413582006467017,250.67682419719927,4.653510064140683,2828.2,40.0

@@ -1,6 +1,0 @@
-artifact,fold,best_iteration,fold_base_mse,fold_resid_model_mse,fold_lambda1_mse,fold_lambda1_gain_vs_anchor,elapsed_sec
-resid27_nogroup_extratrees_l127_child100_lr015,1,1,0.0,0.0,0.0,0.0,8.513574838638306
-resid27_nogroup_extratrees_l127_child100_lr015,2,1,0.0,0.0,0.0,0.0,8.19362998008728
-resid27_nogroup_extratrees_l127_child100_lr015,3,1,0.0,0.0,0.0,0.0,8.229889869689941
-resid27_nogroup_extratrees_l127_child100_lr015,4,1,0.0,0.0,0.0,0.0,8.302424192428589
-resid27_nogroup_extratrees_l127_child100_lr015,5,1,0.0,0.0,0.0,0.0,8.052406072616577

@@ -1,5 +1,0 @@
-model_class,stage,feature_space,scaler,l1_ratio,alpha,train_mse,val_mse,nonzero_coef,n_iter,convergence_warning,aic,bic
-ElasticNet,broad,base_plus_poly_interactions,standard,0.99,0.0011369581027614428,301.053453762379,308.4318214331356,152,21368,False,,
-ElasticNet,broad,base_plus_poly,standard,0.99,0.0011369581027614428,301.66537517980356,308.99359951703326,141,3514,False,,
-ElasticNet,fine,base_plus_interactions,standard,0.99,0.0011369581027614428,304.3774321818933,311.98321509516757,147,3586,False,,
-ElasticNet,broad,base,standard,0.99,0.0011369581027614428,305.1544129370181,312.61919064968953,132,6019,False,,

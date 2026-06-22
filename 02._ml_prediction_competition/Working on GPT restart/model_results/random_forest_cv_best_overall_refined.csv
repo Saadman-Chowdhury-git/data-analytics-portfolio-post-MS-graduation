@@ -1,2 +1,0 @@
-model_class,screen,feature_space,n_estimators,max_samples,max_features,min_samples_leaf,min_samples_split,cv_train_mse_mean,cv_train_mse_std,cv_oob_mse_mean,cv_oob_mse_std,cv_valid_mse_mean,cv_valid_mse_std
-Random Forest,refined_5fold,base,300,None,0.5,1,2,18.4592120718936,0.13107077878399756,135.5785889651538,0.8313404997503601,134.7080966085069,2.8473039126953186
